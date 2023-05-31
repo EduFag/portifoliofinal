@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 
 * {
@@ -580,6 +579,7 @@ nav {
 
   .main {
     flex-direction: column-reverse;
+    height: 120vh;
   }
 
   .contatos {
@@ -649,14 +649,14 @@ nav {
   .line-1 {
     flex-direction: column;
     height: 100%;
-    margin-right: 40px;
+    margin-right: 10px;
     align-items: center;
   }
 
   .line-2 {
     flex-direction: column;
     height: 100%;
-    margin-left: 40px;
+    margin-left: 10px;
     align-items: center;
   }
 
@@ -673,7 +673,7 @@ nav {
     justify-content: center;
     align-items: center;
     width: 90%;
-    height: 80%;
+    height: 90%;
   }
 
   .container {
@@ -684,7 +684,11 @@ nav {
   }
 
   .card {
-    margin-top: -100px
+    margin-top: -150px
+  }
+
+  .face1 {
+    margin-top: 100px;
   }
   
 }
@@ -692,12 +696,7 @@ nav {
 @media (max-width: 574px) {
 
     .main-projetos {
-     height: 320vh;
-    }
-
-    .main-projetos h1 {
-        margin-top: -120px;
-        margin-bottom: 100px;
+     height: 410vh;
     }
 
    .center {
